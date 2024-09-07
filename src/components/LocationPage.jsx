@@ -24,7 +24,7 @@ const LocationPage = () => {
     <div className="bg-slate-900 text-white min-h-screen p-6 text-center pt-20">
       <h2 className="text-[30px]">Character by Location</h2>
       {Object.keys(locations).length === 0 ? (
-        <p>No Character</p>
+        <p>No Location</p>
       ) : (
         <div className="mt-6">
           <div className="flex justify-center items-center gap-4">
