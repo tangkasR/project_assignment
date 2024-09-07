@@ -6,7 +6,7 @@ const AllCharacterListPage = (props) => {
   return (
     <div className="pt-20 pb-6 px-6 bg-slate-800">
       <h1 className="mb-6 text-white text-[20px] font-bold">All Character</h1>
-      <div className="grid grid-cols-4 md:grid-cols-6 gap-2 md:gap-4">
+      <div className="grid grid-cols-2 md:grid-cols-6 gap-2 md:gap-4">
         {results.length > 0 ? (
           results.map((data) => (
             <Link href={`/${data.id}`} className="relative group" key={data.id}>
