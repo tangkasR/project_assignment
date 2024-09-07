@@ -21,7 +21,7 @@ const LocationPage = () => {
     setSelectedLocation(locationName);
   };
   return (
-    <div className="bg-slate-900 text-white min-h-screen p-6 text-center pt-20">
+    <div className="bg-slate-900 text-white min-h-screen p-6 text-center pt-28">
       <h2 className="text-[30px]">Character by Location</h2>
       {Object.keys(locations).length === 0 ? (
         <p>No Location</p>

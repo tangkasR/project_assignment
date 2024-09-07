@@ -26,7 +26,7 @@ const DetailPage = (props) => {
       .then((data) => setData(data));
   }, [id]);
   return (
-    <div className="bg-slate-900  text-white md:p-0 p-6 md:pt-0 pt-24">
+    <div className="bg-slate-900  text-white md:p-0 p-6 md:pt-0 pt-28">
       <div className="flex items-center justify-center gap-4 min-h-screen md:flex-row flex-col">
         <div className="flex-1 flex items-center justify-end">
           <Image

@@ -5,8 +5,8 @@ const CharacterListPage = (props) => {
   const { results } = props;
   const { allResults } = props;
   return (
-    <div className="relative overflow-hidden max-h-screen">
-      <div className="absolute top-20 text-center w-full z-50">
+    <div className="relative overflow-hidden max-h-screen ">
+      <div className="absolute top-28 text-center w-full z-50">
         <h1 className="text-[30px] z-50 font-bold text-white">
           List of Characters
         </h1>
